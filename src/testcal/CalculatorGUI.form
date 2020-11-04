@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="lbl_rollNo" min="-2" pref="181" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="252" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="356" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btn_calculate" min="-2" pref="122" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txt_gpa" min="-2" pref="72" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="225" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="cmb_sem" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" pref="41" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="txt_marks1" min="-2" pref="53" max="-2" attributes="0"/>
+                                          <Component id="txt_marks2" min="-2" pref="53" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="txt_marks6" alignment="1" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="txt_marks7" alignment="1" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="txt_marks8" min="-2" pref="53" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="85" pref="85" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="cmb_ch2" min="-2" pref="107" max="-2" attributes="0"/>
+                                          <Component id="cmb_ch1" min="-2" pref="107" max="-2" attributes="0"/>
+                                          <Component id="jLabel10" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="cmb_ch7" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Component id="cmb_ch3" alignment="1" min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Component id="cmb_ch8" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cmb_ch5" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                  <Component id="cmb_ch6" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                  <Component id="cmb_ch4" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_grade5" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade1" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade2" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade3" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade4" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade6" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_grade8" min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="lbl_grade7" min="-2" pref="57" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="subject8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="subject7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="txt_sub8" min="-2" pref="105" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="subject3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="subjec1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="subject2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="subject4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="subject5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="subject6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_sub2" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="txt_sub1" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="txt_sub3" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="txt_sub4" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="txt_sub5" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="txt_sub6" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <Component id="txt_sub7" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="txt_marks3" min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="txt_marks4" min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="txt_marks5" min="-2" pref="53" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="288" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_rollNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Component id="cmb_sem" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="subjec1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="subject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marks2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_ch2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_grade2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_marks1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_ch1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_grade1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="subject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_sub3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_marks3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmb_ch3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_grade3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt_sub4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="subject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_marks4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmb_ch4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_grade4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="6" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="subject5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marks5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_ch5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="subject8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marks8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_ch8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_grade8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btn_calculate" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txt_gpa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="lbl_grade5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cmb_ch6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="subject6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marks6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_grade6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cmb_ch7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="subject7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sub7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marks7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_grade7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="320" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPA CALCULATOR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subjec1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subect 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subect 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_sub6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_calculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate SGPA"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_calculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_gpa">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_gpaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks6">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch4">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch5">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch6">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rollNo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Your Roll# Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marks"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Credit Hours"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="WELCOME "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks7">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch7">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marks8">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_ch8">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="4"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="1"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sub8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="subject8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_grade8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_sem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="9">
+            <StringItem index="0" value="Semester 1"/>
+            <StringItem index="1" value="Semester 2"/>
+            <StringItem index="2" value="Semester 3"/>
+            <StringItem index="3" value="Semester 4"/>
+            <StringItem index="4" value="Semester 5"/>
+            <StringItem index="5" value="Semester 6"/>
+            <StringItem index="6" value="Semester 7"/>
+            <StringItem index="7" value="Semester 8"/>
+            <StringItem index="8" value="Semester 9"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO BACK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
